@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class=" mainbody overflow-x-hidden relative">
+    
+   <!-- hamburger menu block starts here  -->
+
+    <div class="hamburgermenu z-[1000] w-screen h-screen bg-black hidden absolute flex flex-col gap-[150px] ">
+      <div class="hamburgernav flex justify-between mt-[10px] mx-[5vw] mt-[10vw]">
+        <img src="images/logo.svg" alt="" class="logo w-sm h-sm">
+        <img src="images/icon-close.svg" alt="" class="cross w-sm h-sm cursor-pointer ">
+      </div>
+      <div class="hamburgercontents mx-[5vw]">
+        <ul class="flex flex-col gap-[25px]">
+          <li class="uppercase text-white text-2xl tracking-widest">About</li>
+          <li class="uppercase text-white text-2xl tracking-widest">careers</li>
+          <li class="uppercase text-white text-2xl tracking-widest">events</li>
+          <li class="uppercase text-white text-2xl tracking-widest">products</li>
+          <li class="uppercase text-white text-2xl tracking-widest">support</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- navbar section starts here  -->
+
+    <div class="navbarbox relative w-screen">
+      
+      <!-- background image starts here  -->
+      
+      <img
+        src="images/desktop/image-hero.jpg"
+        alt=""
+        srcset=""
+        class="w-screen h-[100%] hidden md:inline-block"
+      />
+      <img
+        src="images/mobile/image-hero.jpg"
+        alt=""
+        srcset=""
+        class="w-screen h-[100%] inline-block md:hidden"
+      />
+      
+      <!-- navbar box  starts here  -->
+      <div class="navbar absolute top-0 h-[100%] flex flex-col w-screen">
+       
+       
+          <!-- actual navbar with logo and links starts here  -->
+
+          <div class="header w-screen flex justify-center mt-[20px]">
+            <div class="flex justify-between md:w-3/4 w-screen">
+              <img src="images/logo.svg" alt="" srcset="" class="logoimg md:h-[30px] pl-[5vw] md:pl-[0px] pr-[30px] md:ml-[0%] h-[5vw]" />
+              <img src="images/icon-hamburger.svg" alt="" srcset="" class="hamburger pr-[5vw]  md:hidden h-[5vw] cursor-pointer" />
+              <ul class="md:flex hidden justify-evenly gap-[25px]">
+                <li class="about font-[500] text-white font-['Alata'] text-lg">
+                  About
+                </li>
+                <li class=" careers font-[500] text-white font-['Alata'] text-lg">
+                  Careers
+                </li>
+                <li class="events font-[500] text-white font-['Alata'] text-lg">
+                  Events
+                </li>
+                <li class="Products [500] text-white font-['Alata'] text-lg">
+                  Products
+                </li>
+                <li class="Support [500] text-white font-['Alata'] text-lg">
+                  Support
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          
+          <!-- transparent box starts here  -->
+
+          <div class="experiencesdeliver w-screen flex justify-center h-[90%]">
+              <div class="flex md:justify-start h-auto bg-transparent md:w-3/4 items-center w-[90%]">
+                <div class=" leading-[45px] md:w-[50%] w-[100%]">
+                  <p class=" border-[2px] border-white uppercase text-white font-[200] font-['Josefin Sans'] text-2xl p-[10px]">
+                  immersive <br>
+                  experinces<br>
+                  that deliver
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+      
+
+      
+    </div>
+    
+    <!-- section 1 starts here  -->
+     
+
+    <div class="w-screen flex justify-center mt-[20px]">
+
+      <div class="w-3/4 grid md:grid-cols-2 grid-cols-1">
+      <!-- image  -->
+      <img src="images/desktop/image-interactive.jpg" alt=""  class="w-[100%]"  />
+
+      <!-- text box in section 1  -->
+      <div class="md:relative ">
+        <div class="md:absolute bg-white md:top-[50%] md:left-[-80px] md:py-[30px] md:pl-[40px] mt-[20px]">
+        <h2 class="font-['Alata'] uppercase font-[100] md:text-[25px] text-2xl tracking-wide mb-[10px] text-center">the Leader in interactive VR</h2>
+        <p class="md:font-[400] text-[#8c8c8c]  text-sm md:text-start text-center font-[500]">
+          Founded in 2011 , Loopstudios has been producing world class virtual reality projects for some 
+          of the best companies around the globe . Our award-winning creations have transformed 
+          business through digital experiences that bind to their brand.
+        </p>
+        </div>
+        
+      </div>
+
+      </div>
+
+    </div>  
+
+    <!-- section 2 that is creation cards start here  -->
+
+    <div class="section2 w-screen grid grid-cols-1 justify-items-center md:mt-[200px] mt-[50px]">
+
+      <!-- heading box starts here  -->
+
+      <div class="headingbox md:w-3/4 flex justify-between mb-[40px]">
+        <h2 class="heading font-[100] md:text-[25px] text-2xl uppercase font-[Alata]">Our creations </h2>
+        <button class="seeall hidden md:inline-block border-[1.5px] border-black px-[40px] uppercase rounded-sm font-[600]">See All</button>
+      </div>
+      
+      <!-- cards box starts here  -->
+      
+      <div class="cards grid md:grid-cols-4 md:grid-rows-2 md:w-3/4 gap-[20px] mb-[80px] grid-cols-1"> 
+        <div class="indivisualcard relative flex justify-center hover:opacity-[0.5] hover:cursor-pointer">
+          <img src="images/desktop/image-night-arcade.jpg" alt="" srcset="" class="w-[100%] hidden md:inline-block">
+          <img src="images/mobile/image-night-arcade.jpg" alt="" srcset="" class="w-[80%] inline-block md:hidden">
+          <h2 class="cardname absolute bottom-[10%] left-[15%]  md:left-[10%] md:text-lg text-sm text-white font-[100] font-[Alata]">Night Arcade</h2>
+        </div>
+        <div class="indivisualcard relative flex justify-center hover:opacity-[0.5] hover:cursor-pointer">
+          <img src="images/desktop/image-deep-earth.jpg" alt="" srcset="" class="w-[100%] hidden md:inline-block">
+          <img src="images/mobile/image-deep-earth.jpg" alt="" srcset="" class="w-[80%] inline-block md:hidden">
+          <h2 class="cardname absolute bottom-[10%]  left-[15%] md:left-[10%] md:text-lg text-sm text-white font-[100] font-[Alata] uppercase">Deep Earth</h2>
+        </div>
+        <div class="indivisualcard relative flex justify-center hover:opacity-[0.5] hover:cursor-pointer">
+          <img src="images/desktop/image-soccer-team.jpg" alt="" srcset="" class="w-[100%] hidden md:inline-block">
+          <img src="images/mobile/image-soccer-team.jpg" alt="" srcset="" class="w-[80%] inline-block md:hidden">
+          <h2 class="cardname absolute bottom-[10%] left-[15%] md:left-[10%] md:text-lg text-sm text-white font-[100] font-[Alata] bg-grey uppercase">Soccer<br>Team VR</h2>
+        </div>
+        <div class="indivisualcard relative flex justify-center hover:opacity-[0.5] hover:cursor-pointer">
+          <img src="images/desktop/image-grid.jpg" alt="" srcset="" class="w-[100%] hidden md:inline-block">
+          <img src="images/mobile/image-grid.jpg" alt="" srcset="" class="w-[80%] inline-block md:hidden">
+          <h2 class="cardname absolute bottom-[10%] left-[15%] md:left-[10%] md:text-lg text-sm text-white font-[100] font-[Alata] bg-grey uppercase">The <br> Grid</h2>
+        </div>
+        <div class="indivisualcard relative flex justify-center hover:opacity-[0.5] hover:cursor-pointer">
+          <img src="images/desktop/image-from-above.jpg" alt="" srcset="" class="w-[100%] hidden md:inline-block">
+          <img src="images/mobile/image-from-above.jpg" alt="" srcset="" class="w-[80%] inline-block md:hidden">
+          <h2 class="cardname absolute bottom-[10%] left-[15%] md:left-[10%] md:text-lg text-sm text-white font-[100] font-[Alata] bg-grey uppercase">From Up <br>above VR</h2>
+        </div>
+        <div class="indivisualcard relative flex justify-center hover:opacity-[0.5] hover:cursor-pointer">
+          <img src="images/desktop/image-pocket-borealis.jpg" alt="" srcset="" class="w-[100%] hidden md:inline-block">
+          <img src="images/mobile/image-pocket-borealis.jpg" alt="" srcset="" class="w-[80%] inline-block md:hidden">
+          <h2 class="cardname absolute bottom-[10%] left-[15%] md:left-[10%] md:text-lg text-sm text-white font-[100] font-[Alata] bg-grey uppercase">Pocket <br> Borealis</h2>
+        </div>
+        <div class="indivisualcard relative flex justify-center hover:opacity-[0.5] hover:cursor-pointer">
+          <img src="images/desktop/image-curiosity.jpg" alt="" srcset="" class="w-[100%] hidden md:inline-block">
+          <img src="images/mobile/image-curiosity.jpg" alt="" srcset="" class="w-[80%] inline-block md:hidden">
+          <h2 class="cardname absolute bottom-[10%] left-[15%] md:left-[10%] md:text-lg text-sm text-white font-[100] font-[Alata] bg-grey uppercase">The<br>curosity</h2>
+        </div>
+        <div class="indivisualcard relative flex justify-center hover:opacity-[0.5] hover:cursor-pointer">
+          <img src="images/desktop/image-fisheye.jpg" alt="" srcset="" class="w-[100%] hidden md:inline-block">
+          <img src="images/mobile/image-fisheye.jpg" alt="" srcset="" class="w-[80%] inline-block md:hidden">
+          <h2 class="cardname absolute bottom-[10%] left-[15%] md:left-[10%] md:text-lg text-sm text-white font-[100] font-[Alata] bg-grey uppercase">make it <br>Fish eye</h2>
+        </div>
+        <div class="indivisualcard relative flex justify-center">
+            <button class="seeall md:hidden border-[1.5px] border-black px-[10vw] uppercase rounded-sm font-[600] text-sm">See All</button>
+        </div>
+
+
+
+      </div>
+
+      
+
+
+
+
+
+
+    </div>
+
+    <!-- footer starts here  -->
+
+    <div class="footer bg-black w-screen flex justify-center pb-[20px]">
+      <div class="subfooter w-3/4 flex justify-between pt-[20px] flex-col md:flex-row">
+          <div class="loopstudios text-center md:text-start">
+              <img src="images/logo.svg" alt="" class="loopstudiosimg mb-[20px] md:h-[20px] h-[5vw] mx-auto md:mx-[0]">
+              <ul class="quicklinks flex gap-[20px] flex-col md:flex-row">
+                <li class="quicklinksitem text-white md:text-[13px] text-sm">About</li>
+                <li class="quicklinksitem text-white md:text-[13px] text-sm">Careers</li>
+                <li class="quicklinksitem text-white md:text-[13px] text-sm">Events</li>
+                <li class="quicklinksitem text-white md:text-[13px] text-sm">products</li>
+                <li class="quicklinksitem text-white md:text-[13px] text-sm">support</li>
+
+              </ul>
+          </div>
+
+          <div class="sociallinks flex flex-col gap-[20px]">
+            <div class="sociallinksbox flex gap-[15px] flex-row mt-[15px] md:mt-[0] justify-center">
+              <img src="images/icon-instagram.svg" alt="" srcset="" class="w-[15px] h-[15px]">
+              <img src="images/icon-facebook.svg" alt="" srcset="" class="w-[15px] h-[15px]">
+              <img src="images/icon-twitter.svg" alt="" srcset="" class="w-[15px] h-[15px]">
+              <img src="images/icon-pinterest.svg" alt="" srcset="" class="w-[15px] h-[15px]">
+            </div>
+            <p class="statement font-[600] text-[#8c8c8c] text-sm capitalize text-center">&copy; 2021 loopstudios All rights reserve</p>
+          </div>
+      </div>
+    
+
+   </div>
+  
+
+   <script src="index.js"></script>
+  </body>
+</html>
